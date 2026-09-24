@@ -106,6 +106,27 @@ const masterCatalog = [
     category: 'Mobiles', gender: 'Unisex', price: 31999, discount: 14,
     sizes: ['256GB'],
   },
+  {
+    title: 'OnePlus Nord CE 4 5G',
+    description: 'Snapdragon 7 Gen 3, 100W SUPERVOOC fast charging, 50MP Sony LYT-600 camera with OIS.',
+    mainImg: 'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&q=80',
+    category: 'Mobiles', gender: 'Unisex', price: 24999, discount: 10,
+    sizes: ['128GB', '256GB'],
+  },
+  {
+    title: 'Xiaomi 14 Ultra 5G',
+    description: 'Leica Quad Camera System, Snapdragon 8 Gen 3, WQHD+ 120Hz AMOLED display, 90W HyperCharge.',
+    mainImg: 'https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=600&q=80',
+    category: 'Mobiles', gender: 'Unisex', price: 99999, discount: 12,
+    sizes: ['512GB'],
+  },
+  {
+    title: 'Nothing Phone (2a) 5G',
+    description: 'Iconic Glyph Interface, MediaTek Dimensity 7200 Pro, 50MP dual camera, flexible AMOLED display.',
+    mainImg: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80',
+    category: 'Mobiles', gender: 'Unisex', price: 23999, discount: 15,
+    sizes: ['128GB', '256GB'],
+  },
 
   // ── ELECTRONICS ───────────────────────────────────────────────────────────
   {

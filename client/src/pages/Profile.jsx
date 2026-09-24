@@ -133,6 +133,11 @@ const Profile = () => {
                   <span>📦 Qty: {o.quantity}</span>
                   <span>💳 {o.paymentMethod}</span>
                   <span>📅 {o.orderDate}</span>
+                  {(o.approvedBy || o.approvalStatus === 'Approved') && (
+                    <span style={{ color: '#059669', fontWeight: 600 }}>
+                      🛡️ Approval Admin: {o.approvedBy || 'ShopZeAdmin'}
+                    </span>
+                  )}
                 </div>
                 <div className="order-price-row">
                   <span className="order-price">₹{fp * o.quantity}</span>

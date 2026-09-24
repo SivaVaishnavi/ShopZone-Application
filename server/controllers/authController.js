@@ -24,6 +24,10 @@ const register = async (req, res) => {
     const cleanEmail = email.trim().toLowerCase();
     const cleanUsername = username.trim();
 
+    if (!/^[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(cleanEmail)) {
+      return res.status(400).json({ message: 'Email address must be a valid @gmail.com domain' });
+    }
+
     const existing = await User.findOne({ email: cleanEmail });
     if (existing) {
       return res.status(400).json({ message: 'Email already registered' });

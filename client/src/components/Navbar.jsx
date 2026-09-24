@@ -73,20 +73,23 @@ const Navbar = () => {
           Products
         </Link>
 
-        {/* Wishlist */}
-        <Link to="/wishlist" className={`nav-link nav-wishlist ${isActive('/wishlist') ? 'nav-active' : ''}`}>
-          <span className="nav-icon-wrap">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill={wishlistCount > 0 ? '#f87171' : 'none'} stroke={wishlistCount > 0 ? '#f87171' : 'currentColor'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={wishlistCount > 0 ? 'heart-filled' : ''}>
-              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-            </svg>
-            {wishlistCount > 0 && (
-              <span className="nav-badge">{wishlistCount > 9 ? '9+' : wishlistCount}</span>
-            )}
-          </span>
-          Wishlist
-        </Link>
+        {/* Wishlist — hidden for Admin */}
+        {user?.usertype !== 'Admin' && (
+          <Link to="/wishlist" className={`nav-link nav-wishlist ${isActive('/wishlist') ? 'nav-active' : ''}`}>
+            <span className="nav-icon-wrap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill={wishlistCount > 0 ? '#f87171' : 'none'} stroke={wishlistCount > 0 ? '#f87171' : 'currentColor'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={wishlistCount > 0 ? 'heart-filled' : ''}>
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              {wishlistCount > 0 && (
+                <span className="nav-badge">{wishlistCount > 9 ? '9+' : wishlistCount}</span>
+              )}
+            </span>
+            Wishlist
+          </Link>
+        )}
 
-        {user && (
+        {/* Cart — hidden for Admin */}
+        {user && user.usertype !== 'Admin' && (
           <Link to="/cart" className={`nav-link ${isActive('/cart') ? 'nav-active' : ''}`}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 001.99 1.61h9.72a2 2 0 001.99-1.61L23 6H6"/></svg>
             Cart
@@ -95,14 +98,15 @@ const Navbar = () => {
 
         {user ? (
           <>
-            <Link to="/profile" className={`nav-link nav-user ${isActive('/profile') ? 'nav-active' : ''}`}>
-              <span className="user-avatar-mini">{user.username.slice(0, 1).toUpperCase()}</span>
-              {user.username}
-            </Link>
-
-            {user.usertype === 'Admin' && (
+            {user.usertype === 'Admin' ? (
               <Link to="/admin" className={`nav-link ${isActive('/admin') ? 'nav-active' : ''}`}>
+                <span className="user-avatar-mini">{user.username.slice(0, 1).toUpperCase()}</span>
                 ⚙ Admin
+              </Link>
+            ) : (
+              <Link to="/profile" className={`nav-link nav-user ${isActive('/profile') ? 'nav-active' : ''}`}>
+                <span className="user-avatar-mini">{user.username.slice(0, 1).toUpperCase()}</span>
+                {user.username}
               </Link>
             )}
 
@@ -137,14 +141,21 @@ const Navbar = () => {
           </form>
 
           <Link to="/products" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>🛍 Products</Link>
-          <Link to="/wishlist" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
-            ♡ Wishlist {wishlistCount > 0 && <span className="mobile-badge">{wishlistCount}</span>}
-          </Link>
-          {user && <Link to="/cart" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>🛒 Cart</Link>}
+          {user?.usertype !== 'Admin' && (
+            <Link to="/wishlist" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
+              ♡ Wishlist {wishlistCount > 0 && <span className="mobile-badge">{wishlistCount}</span>}
+            </Link>
+          )}
+          {user && user.usertype !== 'Admin' && (
+            <Link to="/cart" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>🛒 Cart</Link>
+          )}
           {user ? (
             <>
-              <Link to="/profile" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>👤 {user.username}</Link>
-              {user.usertype === 'Admin' && <Link to="/admin" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>⚙ Admin</Link>}
+              {user.usertype === 'Admin' ? (
+                <Link to="/admin" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>⚙ Admin</Link>
+              ) : (
+                <Link to="/profile" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>👤 {user.username}</Link>
+              )}
               <button className="mobile-nav-link mobile-logout" onClick={() => { logout(); setMenuOpen(false); }}>Sign Out</button>
             </>
           ) : (

@@ -72,7 +72,8 @@ const Products = () => {
           }
         }
 
-        let result = dataset;
+        // Strip any products that have no image before showing them
+        let result = dataset.filter((p) => p.mainImg && String(p.mainImg).trim() !== '');
         if (category) result = result.filter((p) => isCategoryMatch(p.category, category));
         if (gender) result = result.filter((p) => p.gender && String(p.gender).toLowerCase() === gender.toLowerCase());
         if (search) {

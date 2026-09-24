@@ -17,7 +17,9 @@ const orderSchema = new mongoose.Schema({
   paymentMethod: { type: String, required: true },
   orderDate: { type: String, required: true },
   deliveryDate: { type: String },
-  orderStatus: { type: String, default: 'Order placed' },
+  orderStatus:    { type: String, default: 'Order placed' },
+  approvalStatus: { type: String, default: 'Pending' },   // Pending | Approved | Rejected
+  approvedBy:     { type: String, default: null },        // Admin username who approved/rejected
 }, { timestamps: true });
 
 module.exports = mongoose.model('Order', orderSchema);

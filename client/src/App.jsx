@@ -18,6 +18,7 @@ import EditProducts from './pages/EditProducts';
 import AdminProducts from './pages/AdminProducts';
 import AdminUsers from './pages/AdminUsers';
 import AdminOrders from './pages/AdminOrders';
+import AdminCustomerOrders from './pages/AdminCustomerOrders';
 import ChatWidget from './components/ChatWidget';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/admin/edit-products/:id" element={<ProtectedRoute adminOnly><EditProducts /></ProtectedRoute>} />
           <Route path="/admin/users" element={<ProtectedRoute adminOnly><AdminUsers /></ProtectedRoute>} />
           <Route path="/admin/orders" element={<ProtectedRoute adminOnly><AdminOrders /></ProtectedRoute>} />
+          <Route path="/admin/customers/:userId/orders" element={<ProtectedRoute adminOnly><AdminCustomerOrders /></ProtectedRoute>} />
           <Route path="*" element={<p style={{ padding: '2rem' }}>Page not found.</p>} />
         </Routes>
         <ChatWidget />

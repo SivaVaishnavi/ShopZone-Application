@@ -9,15 +9,13 @@ https://drive.google.com/file/d/1Zei412fzJOqp8AQeFc5Ueo3VecFEqYdm/view?usp=shari
 
 
 ## Live Url
-https://shopez-rose.vercel.app/
+https://shop-zone-five-murex.vercel.app/
 
 ## Tech Stack
 - **Frontend:** React (Vite), React Router, Axios
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (Mongoose)
 - **Auth:** JWT + bcrypt password hashing
-
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/09fc8a04-b7f9-4239-ac08-d74f447d22ad" />
 
 ## Folder Structure
 ```
@@ -75,6 +73,41 @@ App runs on: **http://localhost:5173**
 
 ---
 
+## Step 4: Deploying to Vercel (Frontend) + Render (Backend)
+
+### Backend (Render / Railway / any Node host)
+Set these environment variables on your backend host:
+| Variable | Example value |
+|---|---|
+| `MONGO_URI` | `mongodb+srv://user:pass@cluster.mongodb.net/shopez` |
+| `JWT_SECRET` | `your_long_random_secret` |
+| `PORT` | `8000` |
+| `BACKEND_URL` | `https://your-backend.onrender.com` ← **required for images** |
+
+> `BACKEND_URL` is the public URL of your deployed backend. The server uses it to
+> build absolute image URLs (e.g. `https://your-backend.onrender.com/uploads/img.jpg`)
+> that the Vercel frontend can load from anywhere.
+
+### Frontend (Vercel)
+Go to your Vercel project → **Settings → Environment Variables** and add:
+| Variable | Value |
+|---|---|
+| `VITE_API_URL` | `https://your-backend.onrender.com` ← same URL, no trailing slash |
+
+Then redeploy. Products and their images will now load correctly on the live site.
+
+> **Why this matters:** Without `VITE_API_URL`, the frontend cannot reach the backend
+> API or its `/uploads` images. Without `BACKEND_URL`, uploaded images are stored with
+> a relative path that breaks on any host other than your local machine.
+
+### Adding Products on the deployed site
+- **Use "Paste Image URL"** mode with a public `https://` image link (imgur, Cloudinary, etc.)
+  — this stores the URL directly in the DB and always loads everywhere.
+- **File Upload** also works as long as `BACKEND_URL` is set on the backend host and
+  `VITE_API_URL` is set on Vercel.
+
+---
+
 ## Features Implemented
 - User registration & login (JWT, hashed passwords)
 - Product catalog with category/gender filters and sorting
@@ -82,6 +115,7 @@ App runs on: **http://localhost:5173**
 - Add to cart / remove from cart, live price breakdown
 - Checkout flow (address + payment method) → creates orders
 - User profile page with order history + cancel order
-- Admin dashboard: stats, banner update, add product, view all users/orders
+- Admin dashboard: stats, banner update, add/edit/delete products, manage orders
+- Order approval workflow (admin approves/rejects each new order)
 - Route-level protection (JWT middleware + Admin-only routes)
 

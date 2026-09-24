@@ -29,6 +29,7 @@ const Checkout = () => {
   const [items, setItems] = useState([]);
   const [form, setForm] = useState({ mobile: '', address: '', pincode: '', paymentMethod: 'COD' });
   const [error, setError] = useState('');
+  const [fieldErrors, setFieldErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [step, setStep] = useState(2); // 1=cart, 2=delivery, 3=payment, 4=confirm
 
@@ -38,7 +39,26 @@ const Checkout = () => {
       .catch(() => setError('Could not load cart.'));
   }, []);
 
-  const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
+  const validateDeliveryField = (name, value) => {
+    let err = '';
+    if (name === 'mobile') {
+      if (!value || !/^\d{10}$/.test(value.trim())) {
+        err = 'Mobile number must be exactly 10 digits';
+      }
+    } else if (name === 'pincode') {
+      if (!value || !/^\d{6}$/.test(value.trim())) {
+        err = 'Pincode must be exactly 6 digits';
+      }
+    }
+    setFieldErrors((prev) => ({ ...prev, [name]: err }));
+    return !err;
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+    validateDeliveryField(name, value);
+  };
 
   const totalMRP = items.reduce((sum, i) => sum + i.price * i.quantity, 0);
   const discountAmount = items.reduce((sum, i) => sum + (i.price * i.quantity * (i.discount || 0)) / 100, 0);
@@ -47,10 +67,28 @@ const Checkout = () => {
   const handleNext = (e) => {
     e.preventDefault();
     if (step === 2) {
-      if (!form.mobile || !form.address || !form.pincode) {
-        setError('Please fill all delivery fields.');
+      const isMobileValid = validateDeliveryField('mobile', form.mobile);
+      const isPincodeValid = validateDeliveryField('pincode', form.pincode);
+
+      if (user?.email && !/^[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(user.email.trim())) {
+        setError('⚠️ Your account email must be a valid @gmail.com address.');
         return;
       }
+      if (!form.mobile || !/^\d{10}$/.test(form.mobile.trim())) {
+        setError('⚠️ Mobile number must be exactly 10 digits.');
+        return;
+      }
+      if (!form.pincode || !/^\d{6}$/.test(form.pincode.trim())) {
+        setError('⚠️ Pincode must be exactly 6 digits.');
+        return;
+      }
+      if (!form.address || !form.address.trim()) {
+        setError('⚠️ Please fill in full address.');
+        return;
+      }
+
+      if (!isMobileValid || !isPincodeValid) return;
+
       setError('');
       setStep(3);
     }
@@ -101,24 +139,32 @@ const Checkout = () => {
       <div className="checkout-main">
         <StepBar step={step} />
 
-        {error && <p className="error-text" style={{ marginBottom: '1rem' }}>{error}</p>}
+        {error && (
+          <p className="error-text" style={{ marginBottom: '1rem', background: '#fef2f2', padding: '10px 14px', borderRadius: '8px', border: '1.5px solid #fca5a5' }}>
+            {error}
+          </p>
+        )}
 
         {/* Step 2 — Delivery */}
         {step === 2 && (
-          <form className="checkout-form" onSubmit={handleNext}>
+          <form className="checkout-form" onSubmit={handleNext} noValidate>
             <h2 className="checkout-section-title">📦 Delivery Details</h2>
+
             <div className="checkout-field">
-              <label>Mobile Number</label>
+              <label>Mobile Number (10 digits)</label>
               <input
                 name="mobile"
                 type="tel"
                 placeholder="10-digit mobile number"
                 value={form.mobile}
                 onChange={handleChange}
+                className={fieldErrors.mobile ? 'input-error' : ''}
                 required
                 maxLength={10}
               />
+              {fieldErrors.mobile && <span className="field-error-msg">⚠️ {fieldErrors.mobile}</span>}
             </div>
+
             <div className="checkout-field">
               <label>Full Address</label>
               <textarea
@@ -130,17 +176,21 @@ const Checkout = () => {
                 rows={3}
               />
             </div>
+
             <div className="checkout-field">
-              <label>Pincode</label>
+              <label>Pincode (6 digits)</label>
               <input
                 name="pincode"
                 placeholder="6-digit pincode"
                 value={form.pincode}
                 onChange={handleChange}
+                className={fieldErrors.pincode ? 'input-error' : ''}
                 required
                 maxLength={6}
               />
+              {fieldErrors.pincode && <span className="field-error-msg">⚠️ {fieldErrors.pincode}</span>}
             </div>
+
             <button type="submit" className="checkout-btn">Continue to Payment →</button>
           </form>
         )}

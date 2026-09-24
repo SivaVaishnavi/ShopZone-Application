@@ -6,10 +6,11 @@ const Admin = require('../models/Admin');
 // @route GET /api/admin/dashboard
 const getDashboardStats = async (req, res) => {
   try {
-    const totalUsers = await User.countDocuments({ usertype: 'Customer' });
+    const totalCustomers = await User.countDocuments({ usertype: 'Customer' });
+    const totalAdmins = await User.countDocuments({ usertype: 'Admin' });
     const allProducts = await Product.countDocuments();
     const allOrders = await Order.countDocuments();
-    res.status(200).json({ totalUsers, allProducts, allOrders });
+    res.status(200).json({ totalCustomers, totalUsers: totalCustomers, totalAdmins, allProducts, allOrders });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

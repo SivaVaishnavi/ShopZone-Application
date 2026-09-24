@@ -6,7 +6,8 @@ const getProducts = async (req, res) => {
   try {
     const { category, gender, sort, search } = req.query;
 
-    const filter = {};
+    // Never return products that have no image — they would show as broken cards
+    const filter = { mainImg: { $exists: true, $ne: '' } };
 
     if (category) {
       if (/^sports(-equipment)?$/i.test(category)) {
@@ -104,13 +105,20 @@ const getRelatedProducts = async (req, res) => {
   }
 };
 
+// Resolve the public base URL for this server instance
+const getServerBaseUrl = () => {
+  if (process.env.BACKEND_URL) return process.env.BACKEND_URL.replace(/\/+$/, '');
+  if (process.env.RENDER_EXTERNAL_URL) return process.env.RENDER_EXTERNAL_URL.replace(/\/+$/, '');
+  return `http://localhost:${process.env.PORT || 8000}`;
+};
+
 // @route POST /api/products
 const createProduct = async (req, res) => {
   try {
     let mainImg = '';
 
     if (req.file) {
-      mainImg = `/uploads/${req.file.filename}`;
+      mainImg = `${getServerBaseUrl()}/uploads/${req.file.filename}`;
     } else if (req.body.mainImgUrl) {
       mainImg = await downloadImageFromUrl(req.body.mainImgUrl);
     }
@@ -162,7 +170,7 @@ const updateProduct = async (req, res) => {
     }
 
     if (req.file) {
-      product.mainImg = `/uploads/${req.file.filename}`;
+      product.mainImg = `${getServerBaseUrl()}/uploads/${req.file.filename}`;
     } else if (req.body.mainImgUrl) {
       product.mainImg = await downloadImageFromUrl(req.body.mainImgUrl);
     }

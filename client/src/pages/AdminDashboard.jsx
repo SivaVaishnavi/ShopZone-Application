@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import api from '../api/axios';
 
 const AdminDashboard = () => {
-  const [stats, setStats] = useState({ totalUsers: 0, allProducts: 0, allOrders: 0 });
+  const [stats, setStats] = useState({ totalCustomers: 0, totalUsers: 0, totalAdmins: 0, allProducts: 0, allOrders: 0 });
   const [banner, setBanner] = useState('');
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
@@ -29,27 +29,31 @@ const AdminDashboard = () => {
       <h2>Admin Dashboard</h2>
       {error && <p className="error-text">{error}</p>}
       <div className="stats-grid">
+
         <div className="stat-card">
-          <p className="stat-label">Total users</p>
-          <p className="stat-value">{stats.totalUsers}</p>
-          <Link to="/admin/users">View all</Link>
+          <p className="stat-label">Total Customers</p>
+          <p className="stat-value">{stats.totalCustomers ?? stats.totalUsers ?? 0}</p>
+          <Link to="/admin/users">Manage</Link>
         </div>
+
         <div className="stat-card">
           <p className="stat-label">All Products</p>
           <p className="stat-value">{stats.allProducts}</p>
           <Link to="/admin/products">Manage</Link>
         </div>
-       
+
         <div className="stat-card">
           <p className="stat-label">All Orders</p>
           <p className="stat-value">{stats.allOrders}</p>
           <Link to="/admin/orders">View all</Link>
         </div>
+
         <div className="stat-card">
           <p className="stat-label">Add Product</p>
           <p className="stat-value">(new)</p>
           <Link to="/admin/add-product">Add now</Link>
         </div>
+
       </div>
 
       <form className="banner-form" onSubmit={handleUpdateBanner}>
