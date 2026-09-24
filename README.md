@@ -4,10 +4,6 @@ ShopEZ is a full-stack e-commerce app: product catalog, cart, checkout,
 user profile with order history, and an admin dashboard for managing
 products, users, orders, and the homepage banner.
 
-# Demo Video
-https://drive.google.com/file/d/1Zei412fzJOqp8AQeFc5Ueo3VecFEqYdm/view?usp=sharing
-
-
 ## Live Url
 https://shop-zone-five-murex.vercel.app/
 
