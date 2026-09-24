@@ -13,8 +13,13 @@ const Register = () => {
   const validateField = (name, value) => {
     let err = '';
     if (name === 'email') {
-      if (value && !/^[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(value.trim())) {
-        err = 'Email must be a valid @gmail.com address (e.g. name@gmail.com)';
+      if (value) {
+        const val = value.trim();
+        if (/^\d+@gmail\.com$/i.test(val)) {
+          err = 'Email username cannot be numbers only';
+        } else if (!/^(?=.*[a-zA-Z])[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(val)) {
+          err = 'Email must contain letters and be a valid @gmail.com address';
+        }
       }
     } else if (name === 'mobile') {
       if (value && !/^\d{10}$/.test(value.trim())) {
@@ -38,8 +43,13 @@ const Register = () => {
     const isEmailValid = validateField('email', form.email);
     const isMobileValid = validateField('mobile', form.mobile);
 
-    if (!form.email || !/^[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(form.email.trim())) {
-      setError('⚠️ Email address must be a valid @gmail.com domain');
+    const cleanEmail = form.email.trim();
+    if (!form.email || !/^(?=.*[a-zA-Z])[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(cleanEmail)) {
+      if (/^\d+@gmail\.com$/i.test(cleanEmail)) {
+        setError('⚠️ Email address cannot be numbers only and must contain letters');
+      } else {
+        setError('⚠️ Email address must contain letters and be a valid @gmail.com domain');
+      }
       return;
     }
     if (!form.mobile || !/^\d{10}$/.test(form.mobile.trim())) {
@@ -97,7 +107,7 @@ const Register = () => {
           </label>
 
           <label className="field-group">
-            <span>Email address (@gmail.com)</span>
+            <span>Email address</span>
             <input
               name="email"
               type="email"
@@ -111,7 +121,7 @@ const Register = () => {
           </label>
 
           <label className="field-group">
-            <span>Mobile Number (10 digits)</span>
+            <span>Mobile Number</span>
             <input
               name="mobile"
               type="tel"
