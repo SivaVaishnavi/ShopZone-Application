@@ -73,8 +73,8 @@ const Navbar = () => {
           Products
         </Link>
 
-        {/* Wishlist — hidden for Admin */}
-        {user?.usertype !== 'Admin' && (
+        {/* Wishlist — hidden on home page and only for logged-in non-Admin users */}
+        {user && user.usertype !== 'Admin' && location.pathname !== '/' && (
           <Link to="/wishlist" className={`nav-link nav-wishlist ${isActive('/wishlist') ? 'nav-active' : ''}`}>
             <span className="nav-icon-wrap">
               <svg width="18" height="18" viewBox="0 0 24 24" fill={wishlistCount > 0 ? '#f87171' : 'none'} stroke={wishlistCount > 0 ? '#f87171' : 'currentColor'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={wishlistCount > 0 ? 'heart-filled' : ''}>
@@ -141,7 +141,7 @@ const Navbar = () => {
           </form>
 
           <Link to="/products" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>🛍 Products</Link>
-          {user?.usertype !== 'Admin' && (
+          {user && user.usertype !== 'Admin' && location.pathname !== '/' && (
             <Link to="/wishlist" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
               ♡ Wishlist {wishlistCount > 0 && <span className="mobile-badge">{wishlistCount}</span>}
             </Link>

@@ -1,1149 +1,1691 @@
 export const fallbackProducts = [
   {
-    "_id": "6ab3de396e3c10005fa808cd",
+    "_id": "6ab49d7c8cba44f947c58b65",
     "title": "Smart Touchscreen Smartphone 5G",
     "description": "High performance 5G smartphone with crisp AMOLED display, 48MP triple camera, and 5000mAh battery life.",
     "mainImg": "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 34999,
     "discount": 15,
-    "sizes": [
-      "128GB",
-      "256GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.184Z",
+    "updatedAt": "2026-09-24T03:48:12.197Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808ce",
+    "_id": "6ab49d7c8cba44f947c58b66",
     "title": "Vivo Y31 5G Mobile",
     "description": "Stunning 6.58-inch display with 90Hz refresh rate, 64MP camera, and 44W FlashCharge for rapid power-ups.",
     "mainImg": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Standard",
+      "128GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 19999,
     "discount": 20,
-    "sizes": [
-      "Standard",
-      "128GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.185Z",
+    "updatedAt": "2026-09-24T03:48:12.200Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808cf",
+    "_id": "6ab49d7c8cba44f947c58b67",
     "title": "iPhone 15 Pro Max 256GB",
     "description": "Forged in titanium with the groundbreaking A17 Pro chip, customizable Action button, and ProRes video.",
     "mainImg": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "256GB",
+      "512GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 134900,
     "discount": 8,
-    "sizes": [
-      "256GB",
-      "512GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.201Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d0",
+    "_id": "6ab49d7c8cba44f947c58b68",
     "title": "Samsung Galaxy S24 Ultra 5G",
     "description": "Galaxy AI is here. 200MP camera, Snapdragon 8 Gen 3 for Galaxy, and built-in S Pen.",
     "mainImg": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "256GB",
+      "512GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 129999,
     "discount": 10,
-    "sizes": [
-      "256GB",
-      "512GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.202Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d1",
+    "_id": "6ab49d7c8cba44f947c58b69",
     "title": "OnePlus 12 5G 256GB",
     "description": "Snapdragon 8 Gen 3, Hasselblad triple camera system, 100W SUPERVOOC charging, and 120Hz ProXDR display.",
     "mainImg": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "256GB",
+      "512GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 64999,
     "discount": 12,
-    "sizes": [
-      "256GB",
-      "512GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.203Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d2",
+    "_id": "6ab49d7c8cba44f947c58b6a",
     "title": "Redmi Note 13 Pro 5G",
     "description": "200MP OIS camera, Snapdragon 7s Gen 2, 5100mAh battery, and Corning Gorilla Glass 5 protection.",
     "mainImg": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 24999,
     "discount": 18,
-    "sizes": [
-      "128GB",
-      "256GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.206Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d3",
+    "_id": "6ab49d7c8cba44f947c58b6b",
     "title": "Google Pixel 8 Pro 5G",
     "description": "Google's best camera phone with Magic Eraser, Photo Unblur, and 7 years of OS updates guaranteed.",
     "mainImg": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&q=80",
-    "category": "Mobiles",
-    "gender": "Unisex",
-    "price": 106999,
-    "discount": 6,
+    "carousel": [],
     "sizes": [
       "128GB",
       "256GB",
       "1TB"
-    ]
+    ],
+    "category": "Mobiles",
+    "gender": "Unisex",
+    "price": 106999,
+    "discount": 6,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.207Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d4",
+    "_id": "6ab49d7c8cba44f947c58b6c",
     "title": "Foldable Ultra-Compact Smartphone",
     "description": "Next-gen dual-screen foldable phone with revolutionary hinge technology and 120Hz inner display.",
     "mainImg": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "256GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 89999,
     "discount": 8,
-    "sizes": [
-      "256GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.209Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d5",
+    "_id": "6ab49d7c8cba44f947c58b6d",
     "title": "Slim Quad-Camera Smartphone",
     "description": "Super thin body with high-definition 64MP quad camera and 67W fast charging technology.",
     "mainImg": "https://images.unsplash.com/photo-1528740096961-3798add19cb7?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "128GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 24999,
     "discount": 15,
-    "sizes": [
-      "128GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.210Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d6",
+    "_id": "6ab49d7c8cba44f947c58b6e",
     "title": "Samsung Galaxy Z Flip 5 5G",
     "description": "Iconic 3.4-inch Flex Window, FlexCam hands-free shooting, Snapdragon 8 Gen 2 for Galaxy, and IPX8 water resistance.",
     "mainImg": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "256GB",
+      "512GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 99999,
     "discount": 15,
-    "sizes": [
-      "256GB",
-      "512GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.211Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d7",
+    "_id": "6ab49d7c8cba44f947c58b6f",
     "title": "Realme GT 5 Pro 5G",
     "description": "Periscope telephoto lens with Sony IMX890 sensor, Snapdragon 8 Gen 3, and 5400mAh battery with 100W SuperVOOC charging.",
     "mainImg": "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "256GB",
+      "512GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 44999,
     "discount": 10,
-    "sizes": [
-      "256GB",
-      "512GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.212Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d8",
+    "_id": "6ab49d7c8cba44f947c58b70",
     "title": "iPhone 15 128GB Pink",
     "description": "Dynamic Island, 48MP main camera, 2x Telephoto lens, A16 Bionic chip, and durable color-infused glass design.",
     "mainImg": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 79900,
     "discount": 7,
-    "sizes": [
-      "128GB",
-      "256GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.213Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808d9",
+    "_id": "6ab49d7c8cba44f947c58b71",
     "title": "Motorola Edge 50 Pro 5G",
     "description": "World's first AI-powered Pantone validated camera, 125W TurboPower charging, and 144Hz curved pOLED display.",
     "mainImg": "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "256GB"
+    ],
     "category": "Mobiles",
     "gender": "Unisex",
     "price": 31999,
     "discount": 14,
-    "sizes": [
-      "256GB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.214Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808da",
+    "_id": "6ab49d7c8cba44f947c58b72",
+    "title": "OnePlus Nord CE 4 5G",
+    "description": "Snapdragon 7 Gen 3, 100W SUPERVOOC fast charging, 50MP Sony LYT-600 camera with OIS.",
+    "mainImg": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
+    "category": "Mobiles",
+    "gender": "Unisex",
+    "price": 24999,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.215Z"
+  },
+  {
+    "_id": "6ab49d7c8cba44f947c58b73",
+    "title": "Xiaomi 14 Ultra 5G",
+    "description": "Leica Quad Camera System, Snapdragon 8 Gen 3, WQHD+ 120Hz AMOLED display, 90W HyperCharge.",
+    "mainImg": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "512GB"
+    ],
+    "category": "Mobiles",
+    "gender": "Unisex",
+    "price": 99999,
+    "discount": 12,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.215Z"
+  },
+  {
+    "_id": "6ab49d7c8cba44f947c58b74",
+    "title": "Nothing Phone (2a) 5G",
+    "description": "Iconic Glyph Interface, MediaTek Dimensity 7200 Pro, 50MP dual camera, flexible AMOLED display.",
+    "mainImg": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
+    "category": "Mobiles",
+    "gender": "Unisex",
+    "price": 23999,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.216Z"
+  },
+  {
+    "_id": "6ab49d7c8cba44f947c58b75",
     "title": "Wireless Stereo Headphones ANC",
     "description": "Immersive 40mm drivers with active noise cancellation, 30-hour battery, and ultra-soft memory foam ear cushions.",
     "mainImg": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 5599,
     "discount": 20,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.217Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808db",
+    "_id": "6ab49d7c8cba44f947c58b76",
     "title": "Digital Drawing Tablet with Pen",
     "description": "Professional drawing tablet with 8192 pressure levels, tilt support, and wireless active stylus.",
     "mainImg": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 3999,
     "discount": 10,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.217Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808dc",
+    "_id": "6ab49d7c8cba44f947c58b77",
     "title": "MacBook Pro 16\" M3 Max",
     "description": "M3 Max 16-core CPU, 40-core GPU, and a Liquid Retina XDR display for mind-blowing performance.",
     "mainImg": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "36GB/1TB",
+      "48GB/1TB"
+    ],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 249900,
     "discount": 5,
-    "sizes": [
-      "36GB/1TB",
-      "48GB/1TB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.218Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808dd",
+    "_id": "6ab49d7c8cba44f947c58b78",
     "title": "Sony WH-1000XM5 Headphones",
     "description": "Industry-leading noise cancellation with two chips and eight microphones. 30-hr battery, multipoint connection.",
     "mainImg": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 29990,
     "discount": 15,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.219Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808de",
+    "_id": "6ab49d7c8cba44f947c58b79",
     "title": "4K Smart LED TV 55\"",
     "description": "4K Ultra HD with Dolby Vision, HDR10+, built-in Alexa, and ultra-slim bezel for immersive viewing.",
     "mainImg": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&q=80",
-    "category": "Electronics",
-    "gender": "Unisex",
-    "price": 54990,
-    "discount": 22,
+    "carousel": [],
     "sizes": [
       "43\"",
       "55\"",
       "65\""
-    ]
+    ],
+    "category": "Electronics",
+    "gender": "Unisex",
+    "price": 54990,
+    "discount": 22,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.221Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808df",
+    "_id": "6ab49d7c8cba44f947c58b7a",
     "title": "Apple iPad Pro 12.9\" M2",
     "description": "M2 chip with ProMotion 120Hz Liquid Retina display, Apple Pencil hover support, and Thunderbolt.",
     "mainImg": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&q=80",
-    "category": "Electronics",
-    "gender": "Unisex",
-    "price": 112900,
-    "discount": 7,
+    "carousel": [],
     "sizes": [
       "128GB",
       "256GB",
       "512GB"
-    ]
+    ],
+    "category": "Electronics",
+    "gender": "Unisex",
+    "price": 112900,
+    "discount": 7,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.222Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e0",
+    "_id": "6ab49d7c8cba44f947c58b7b",
     "title": "Portable Bluetooth Soundbar",
     "description": "360° surround sound, powerful bass radiators, 12-hour battery, and waterproof IPX7 rating.",
     "mainImg": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 3499,
     "discount": 14,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.223Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e1",
+    "_id": "6ab49d7c8cba44f947c58b7c",
     "title": "Canon EOS R50 Mirrorless Camera",
     "description": "24.2MP APS-C sensor, 4K video, DIGIC X processor, Dual Pixel CMOS AF, and compact body.",
     "mainImg": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 74995,
     "discount": 10,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.224Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e2",
+    "_id": "6ab49d7c8cba44f947c58b7d",
     "title": "Apple Watch Series 9 GPS",
     "description": "Blood oxygen sensor, ECG, crash detection, and an always-on Retina display in aluminium case.",
     "mainImg": "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "41mm",
+      "45mm"
+    ],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 41900,
     "discount": 8,
-    "sizes": [
-      "41mm",
-      "45mm"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.225Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e3",
+    "_id": "6ab49d7c8cba44f947c58b7e",
     "title": "Smart Fitness Tracker Band",
     "description": "Track heart rate, sleep, SpO2, and 100+ workout modes in an ultra-thin waterproof design.",
     "mainImg": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "One Size"
+    ],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 2999,
     "discount": 18,
-    "sizes": [
-      "One Size"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.225Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e4",
+    "_id": "6ab49d7c8cba44f947c58b7f",
     "title": "Asus ROG Zephyrus G16 Gaming Laptop",
     "description": "Intel Core Ultra 9 processor, NVIDIA GeForce RTX 4070, 2.5K 240Hz OLED display, and CNC-machined aluminum chassis.",
     "mainImg": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "16GB/1TB",
+      "32GB/1TB"
+    ],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 189990,
     "discount": 8,
-    "sizes": [
-      "16GB/1TB",
-      "32GB/1TB"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.226Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e5",
+    "_id": "6ab49d7c8cba44f947c58b80",
     "title": "Bose QuietComfort Ultra Earbuds",
     "description": "Breakthrough spatial audio, custom-tuned active noise cancellation, Touch control, and up to 6 hours battery life.",
     "mainImg": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 24900,
     "discount": 12,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.227Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e6",
+    "_id": "6ab49d7c8cba44f947c58b81",
     "title": "LG UltraGear 27\" Gaming Monitor",
     "description": "QHD Nano IPS panel with 1ms GTG response time, 180Hz refresh rate, HDR400, and NVIDIA G-SYNC compatibility.",
     "mainImg": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "27 Inch"
+    ],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 32999,
     "discount": 18,
-    "sizes": [
-      "27 Inch"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.186Z",
+    "updatedAt": "2026-09-24T03:48:12.227Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e7",
+    "_id": "6ab49d7c8cba44f947c58b82",
     "title": "Anker 65W GaN Fast Wall Charger",
     "description": "Ultra-compact 3-port fast charger for laptops, tablets, and smartphones with PowerIQ 4.0 dynamic power distribution.",
     "mainImg": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Standard"
+    ],
     "category": "Electronics",
     "gender": "Unisex",
     "price": 3499,
     "discount": 20,
-    "sizes": [
-      "Standard"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.228Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e8",
+    "_id": "6ab49d7c8cba44f947c58b83",
     "title": "Cotton Kurti Ethnic Print",
     "description": "Premium 100% cotton kurti with ethnic block print, perfect for office, college, and casual wear.",
     "mainImg": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 1899,
-    "discount": 10,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 1899,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.229Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808e9",
+    "_id": "6ab49d7c8cba44f947c58b84",
     "title": "Men's Running Sport Shoes",
     "description": "Lightweight EVA sole with breathable mesh upper, anti-skid outsole, and superior cushioning.",
     "mainImg": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 2450,
-    "discount": 20,
+    "carousel": [],
     "sizes": [
       "7",
       "8",
       "9",
       "10",
       "11"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 2450,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.230Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808ea",
+    "_id": "6ab49d7c8cba44f947c58b85",
     "title": "Bridal Lehenga Set",
     "description": "Hand-embroidered designer bridal lehenga with dupatta and blouse piece in premium silk fabric.",
     "mainImg": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 8999,
-    "discount": 25,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 8999,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.231Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808eb",
+    "_id": "6ab49d7c8cba44f947c58b86",
     "title": "Men's Slim Fit Formal Shirt",
     "description": "Premium wrinkle-free cotton formal shirt with spread collar, perfect for office and business.",
     "mainImg": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 1499,
-    "discount": 30,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL",
       "XXL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 1499,
+    "discount": 30,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.231Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808ec",
+    "_id": "6ab49d7c8cba44f947c58b87",
     "title": "Combo Shirt & T-Shirt Pack",
     "description": "Stylish combo of one formal shirt and one premium cotton round-neck t-shirt.",
     "mainImg": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 2799,
-    "discount": 30,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 2799,
+    "discount": 30,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.232Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808ed",
+    "_id": "6ab49d7c8cba44f947c58b88",
     "title": "Women Soft Silk Printed Saree",
     "description": "Elegant soft silk saree with intricate zari woven floral border and matching blouse piece.",
     "mainImg": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Free Size"
+    ],
     "category": "Fashion",
     "gender": "Women",
     "price": 3499,
     "discount": 35,
-    "sizes": [
-      "Free Size"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.233Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808ee",
+    "_id": "6ab49d7c8cba44f947c58b89",
     "title": "Women's Floral Maxi Gown",
     "description": "Floral printed maxi gown with V-neck, adjustable back tie, and flowing A-line silhouette.",
     "mainImg": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 3299,
-    "discount": 35,
+    "carousel": [],
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 3299,
+    "discount": 35,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.233Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808ef",
+    "_id": "6ab49d7c8cba44f947c58b8a",
     "title": "Men's Premium Leather Jacket",
     "description": "Classic genuine full-grain leather jacket with YKK zippers, quilted inner lining, and snap collar.",
     "mainImg": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 7499,
-    "discount": 20,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 7499,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.234Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f0",
+    "_id": "6ab49d7c8cba44f947c58b8b",
     "title": "Women Leather Shoulder Bag",
     "description": "Spacious top-grain leather handbag with multiple compartments, gold hardware, and adjustable strap.",
     "mainImg": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Fashion",
     "gender": "Women",
     "price": 3299,
     "discount": 25,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.235Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f1",
+    "_id": "6ab49d7c8cba44f947c58b8c",
     "title": "Men's Slim Fit Chinos",
     "description": "Stretch-twill chinos with a modern slim fit, flat front, and premium cotton blend fabric.",
     "mainImg": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 1799,
-    "discount": 15,
+    "carousel": [],
     "sizes": [
       "28",
       "30",
       "32",
       "34",
       "36"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 1799,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.236Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f2",
+    "_id": "6ab49d7c8cba44f947c58b8d",
     "title": "Women's Denim Jacket",
     "description": "Classic oversized denim jacket with distressed details, chest pockets, and button-front closure.",
     "mainImg": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 2199,
-    "discount": 20,
+    "carousel": [],
     "sizes": [
       "XS",
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 2199,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.237Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f3",
+    "_id": "6ab49d7c8cba44f947c58b8e",
     "title": "Men's Sports Jogger Set",
     "description": "Moisture-wicking polyester jogger track suit with elastic waistband, zip pockets, and reflective logo.",
     "mainImg": "https://images.unsplash.com/photo-1616877217977-fe8d019afd76?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 1999,
-    "discount": 25,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL",
       "XXL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 1999,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.238Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f4",
+    "_id": "6ab49d7c8cba44f947c58b8f",
     "title": "Women's Designer Denim Overall Dress",
     "description": "Chic A-line denim dress with adjustable shoulder straps, utility pockets, and premium washed cotton denim finish.",
     "mainImg": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 2899,
-    "discount": 22,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 2899,
+    "discount": 22,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.239Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f5",
+    "_id": "6ab49d7c8cba44f947c58b90",
     "title": "Men's Classic Wool Blend Trench Coat",
     "description": "Double-breasted long wool trench coat with notch lapel, belt closure, and deep slant pockets for winter elegance.",
     "mainImg": "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 6999,
-    "discount": 25,
+    "carousel": [],
     "sizes": [
       "M",
       "L",
       "XL",
       "XXL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 6999,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.240Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f6",
+    "_id": "6ab49d7c8cba44f947c58b91",
     "title": "Unisex Vintage Polarized Sunglasses",
     "description": "Classic aviator style polarized UV400 sunglasses with lightweight metal alloy frame and anti-glare lenses.",
     "mainImg": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "category": "Fashion",
     "gender": "Unisex",
     "price": 1299,
     "discount": 35,
-    "sizes": [
-      "Medium",
-      "Large"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.240Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f7",
+    "_id": "6ab49d7c8cba44f947c58b92",
     "title": "Women's Ankle Strap Block Heel Sandals",
     "description": "Elegant open-toe heels with comfortable padded footbed, sturdy block heel, and secure ankle buckle strap.",
     "mainImg": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 2599,
-    "discount": 15,
+    "carousel": [],
     "sizes": [
       "5",
       "6",
       "7",
       "8",
       "9"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 2599,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.241Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f8",
+    "_id": "6ab49d7c8cba44f947c58b93",
     "title": "Women's Oversized Knit Sweater",
     "description": "Cozy oversized turtleneck sweater crafted from ultra-soft acrylic wool blend fabric for chilly weather.",
     "mainImg": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 2299,
-    "discount": 20,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 2299,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.241Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808f9",
+    "_id": "6ab49d7c8cba44f947c58b94",
     "title": "Men's Waterproof Outdoor Parka Jacket",
     "description": "Heavy-duty thermal insulated parka coat with faux fur hood, windproof outer shell, and deep cargo pockets.",
     "mainImg": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 5499,
-    "discount": 18,
+    "carousel": [],
     "sizes": [
       "M",
       "L",
       "XL",
       "XXL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 5499,
+    "discount": 18,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.242Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808fa",
+    "_id": "6ab49d7c8cba44f947c58b95",
     "title": "Women's High-Waisted Wide Leg Trousers",
     "description": "Tailored high-rise pleat-front trousers with side pockets and a flattering wide-leg silhouette.",
     "mainImg": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 1999,
-    "discount": 25,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 1999,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.242Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808fb",
+    "_id": "6ab49d7c8cba44f947c58b96",
     "title": "Men's Classic Leather Loafers",
     "description": "Slip-on genuine leather penny loafers with cushioned footbed and durable non-slip rubber sole.",
     "mainImg": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 3499,
-    "discount": 15,
+    "carousel": [],
     "sizes": [
       "7",
       "8",
       "9",
       "10",
       "11"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 3499,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.243Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808fc",
+    "_id": "6ab49d7c8cba44f947c58b97",
     "title": "Women's Silk Satin Pyjama Set",
     "description": "Luxurious 2-piece soft silk satin pyjama set with button-up shirt and elastic waist trousers.",
     "mainImg": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 2799,
-    "discount": 30,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 2799,
+    "discount": 30,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.244Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808fd",
+    "_id": "6ab49d7c8cba44f947c58b98",
     "title": "Men's Denim Trucker Jacket",
     "description": "Classic 100% cotton denim trucker jacket with buttoned chest pockets and adjustable waist tabs.",
     "mainImg": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 3299,
-    "discount": 22,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 3299,
+    "discount": 22,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.244Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808fe",
+    "_id": "6ab49d7c8cba44f947c58b99",
     "title": "Women's Crossbody Mini Handbag",
     "description": "Compact structured faux leather crossbody bag with chain strap and gold hardware accent.",
     "mainImg": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "One Size"
+    ],
     "category": "Fashion",
     "gender": "Women",
     "price": 1499,
     "discount": 20,
-    "sizes": [
-      "One Size"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.245Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa808ff",
+    "_id": "6ab49d7c8cba44f947c58b9a",
     "title": "Men's Printed Casual Hawaiian Shirt",
     "description": "Lightweight breathable rayon short-sleeve resort shirt with tropical floral print.",
     "mainImg": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 1199,
-    "discount": 30,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL",
       "XXL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 1199,
+    "discount": 30,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.245Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80900",
+    "_id": "6ab49d7c8cba44f947c58b9b",
     "title": "Women's Floral Wrap Midi Dress",
     "description": "V-neck wrap dress with ruffle hem, cap sleeves, and self-tie waist belt in breathable viscose.",
     "mainImg": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 2499,
-    "discount": 15,
+    "carousel": [],
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 2499,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.246Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80901",
+    "_id": "6ab49d7c8cba44f947c58b9c",
     "title": "Men's Cotton Polo T-Shirt 3-Pack",
     "description": "Set of 3 piqué cotton short-sleeve polo shirts with rib collar and button placket.",
     "mainImg": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 2199,
-    "discount": 25,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 2199,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.247Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80902",
+    "_id": "6ab49d7c8cba44f947c58b9d",
     "title": "Women's Chunky Platform Sneakers",
     "description": "Retro 90s style chunky platform sneakers with breathable mesh panels and high-grip outsole.",
     "mainImg": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 2999,
-    "discount": 18,
+    "carousel": [],
     "sizes": [
       "5",
       "6",
       "7",
       "8"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 2999,
+    "discount": 18,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.247Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80903",
+    "_id": "6ab49d7c8cba44f947c58b9e",
     "title": "Unisex Wool Felt Fedora Hat",
     "description": "Classic wide-brim wool felt fedora hat with interior sweatband and ribbon band accent.",
     "mainImg": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "category": "Fashion",
     "gender": "Unisex",
     "price": 1299,
     "discount": 20,
-    "sizes": [
-      "Medium",
-      "Large"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.248Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80904",
+    "_id": "6ab49d7c8cba44f947c58b9f",
     "title": "Men's Tailored Suit Blazer",
     "description": "Single-breasted 2-button formal suit jacket with notch lapel, dual vents, and fully lined interior.",
     "mainImg": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Men",
-    "price": 5999,
-    "discount": 20,
+    "carousel": [],
     "sizes": [
       "38R",
       "40R",
       "42R",
       "44R"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Men",
+    "price": 5999,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.249Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80905",
+    "_id": "6ab49d7c8cba44f947c58ba0",
     "title": "Women's Leather Biker Jacket",
     "description": "Asymmetrical zip motorcycle jacket made from premium soft lambskin leather with zip cuffs.",
     "mainImg": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=600&q=80",
-    "category": "Fashion",
-    "gender": "Women",
-    "price": 7999,
-    "discount": 15,
+    "carousel": [],
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
-    ]
+    ],
+    "category": "Fashion",
+    "gender": "Women",
+    "price": 7999,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.249Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80906",
+    "_id": "6ab49d7c8cba44f947c58ba1",
     "title": "Unisex Canvas Travel Duffel Bag",
     "description": "Heavy-duty vintage canvas weekend duffel bag with genuine leather trim and detachable shoulder strap.",
     "mainImg": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "45L"
+    ],
     "category": "Fashion",
     "gender": "Unisex",
     "price": 2699,
     "discount": 25,
-    "sizes": [
-      "45L"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.250Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80907",
+    "_id": "6ab49d7c8cba44f947c58ba2",
     "title": "Tata Salt 1kg",
     "description": "India's most trusted iodized vacuum-evaporated salt with 100% natural iodine.",
     "mainImg": "https://images.unsplash.com/photo-1560472355-536de3962603?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "1kg"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 100,
     "discount": 25,
-    "sizes": [
-      "1kg"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.251Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80908",
+    "_id": "6ab49d7c8cba44f947c58ba3",
     "title": "Premium Mixed Dry Fruits 500g",
     "description": "Handpicked mix of cashews, almonds, raisins, walnuts, and pistachios — rich in protein and omega-3.",
     "mainImg": "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "500g",
+      "1kg"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 1199,
     "discount": 10,
-    "sizes": [
-      "500g",
-      "1kg"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.251Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80909",
+    "_id": "6ab49d7c8cba44f947c58ba4",
     "title": "Yippee Noodles Pack of 12",
     "description": "Sunfeast Yippee Magic Masala instant noodles — long, non-sticky noodles with real masala flavour.",
     "mainImg": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 199,
     "discount": 25,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.252Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8090a",
+    "_id": "6ab49d7c8cba44f947c58ba5",
     "title": "Fortune Sunflower Oil 5L",
     "description": "Fortune Sunlite refined sunflower oil with Oryzanol, rich in Vitamin E, light and healthy for daily cooking.",
     "mainImg": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "1L",
+      "5L"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 1499,
     "discount": 14,
-    "sizes": [
-      "1L",
-      "5L"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.254Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8090b",
+    "_id": "6ab49d7c8cba44f947c58ba6",
     "title": "Parachute Coconut Hair Oil",
     "description": "Pure coconut oil enriched with vitamin E and keratin proteins — prevents hairfall, dandruff, and breakage.",
     "mainImg": "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "200ml",
+      "500ml"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 299,
     "discount": 10,
-    "sizes": [
-      "200ml",
-      "500ml"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.255Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8090c",
+    "_id": "6ab49d7c8cba44f947c58ba7",
     "title": "Pure Raw Organic Honey 500g",
     "description": "100% pure unprocessed wild forest honey, naturally harvested by Himalayan bees, no added sugar.",
     "mainImg": "https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "500g",
+      "1kg"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 499,
     "discount": 10,
-    "sizes": [
-      "500g",
-      "1kg"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.256Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8090d",
+    "_id": "6ab49d7c8cba44f947c58ba8",
     "title": "Organic Whole Wheat Atta 5kg",
     "description": "Stone-ground whole wheat atta from certified organic farms — high fibre, perfect for rotis and parathas.",
     "mainImg": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "5kg",
+      "10kg"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 349,
     "discount": 15,
-    "sizes": [
-      "5kg",
-      "10kg"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.256Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8090e",
+    "_id": "6ab49d7c8cba44f947c58ba9",
     "title": "Premium Basmati Rice 5kg",
     "description": "Extra long grain aged Basmati rice with a signature nutty aroma, fluffy texture, and low glycemic index.",
     "mainImg": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "5kg",
+      "10kg"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 799,
     "discount": 12,
-    "sizes": [
-      "5kg",
-      "10kg"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.257Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8090f",
+    "_id": "6ab49d7c8cba44f947c58baa",
     "title": "Amul Butter 500g",
     "description": "India's favourite pasteurised butter — naturally creamy, zero artificial flavour or colour.",
     "mainImg": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 290,
     "discount": 5,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.258Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80910",
+    "_id": "6ab49d7c8cba44f947c58bab",
     "title": "Assorted Biscuits Combo Pack",
     "description": "Gift pack of 6 popular biscuit varieties — Bourbon, Marie, Digestive, Oreo, Good Day, and Hide & Seek.",
     "mainImg": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 449,
     "discount": 18,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.258Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80911",
+    "_id": "6ab49d7c8cba44f947c58bac",
     "title": "Green Tea Assorted 50 Bags",
     "description": "Premium green tea with tulsi, ginger, lemon, and jasmine variants — rich in antioxidants.",
     "mainImg": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "25 bags",
+      "50 bags"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 350,
     "discount": 20,
-    "sizes": [
-      "25 bags",
-      "50 bags"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.259Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80912",
+    "_id": "6ab49d7c8cba44f947c58bad",
     "title": "Organic Extra Virgin Olive Oil 1L",
     "description": "Cold-pressed 100% Spanish extra virgin olive oil, low acidity, rich in antioxidants for healthy salads and cooking.",
     "mainImg": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "500ml",
+      "1L"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 1299,
     "discount": 12,
-    "sizes": [
-      "500ml",
-      "1L"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.259Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80913",
+    "_id": "6ab49d7c8cba44f947c58bae",
     "title": "Nescafe Gold Blend Coffee Jar 200g",
     "description": "Rich & smooth freeze-dried instant coffee crafted with high quality mountain-grown Arabica coffee beans.",
     "mainImg": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "100g",
+      "200g"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 899,
     "discount": 10,
-    "sizes": [
-      "100g",
-      "200g"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.260Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80914",
+    "_id": "6ab49d7c8cba44f947c58baf",
     "title": "Quaker Whole Oats 1kg Pack",
     "description": "100% natural whole grain rolled oats, rich in dietary fiber, beta-glucan, and complex carbohydrates.",
     "mainImg": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "1kg"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 235,
     "discount": 15,
-    "sizes": [
-      "1kg"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.261Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80915",
+    "_id": "6ab49d7c8cba44f947c58bb0",
     "title": "Dark Chocolate Almond Butter 350g",
     "description": "Creamy slow-roasted almond butter infused with 70% dark cocoa, rich in protein with zero palm oil or refined sugar.",
     "mainImg": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "350g"
+    ],
     "category": "Groceries",
     "gender": "Unisex",
     "price": 549,
     "discount": 20,
-    "sizes": [
-      "350g"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.261Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80916",
+    "_id": "6ab49d7c8cba44f947c58bb1",
     "title": "Cricket Leather Ball Combo",
     "description": "Match-quality hand-stitched genuine leather cricket balls for turf, matting, and clay pitches.",
     "mainImg": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 700,
     "discount": 20,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.262Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80917",
+    "_id": "6ab49d7c8cba44f947c58bb2",
     "title": "Digital Stopwatch Timer",
     "description": "Professional multi-function digital stopwatch with lap memory, countdown timer, and water-resistant case.",
     "mainImg": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 5999,
     "discount": 25,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.262Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80918",
+    "_id": "6ab49d7c8cba44f947c58bb3",
     "title": "Resistance Bands Set (5 Bands)",
     "description": "Heavy-duty latex resistance bands 5–40kg for full-body strength training and rehabilitation.",
     "mainImg": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Set of 5"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 799,
     "discount": 20,
-    "sizes": [
-      "Set of 5"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.263Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80919",
+    "_id": "6ab49d7c8cba44f947c58bb4",
     "title": "Adjustable Dumbbell Set 20kg",
     "description": "Cast iron adjustable dumbbells with chrome handles, rubber-coated plates, and locking collar.",
     "mainImg": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "10kg Set",
+      "20kg Set"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 4499,
     "discount": 22,
-    "sizes": [
-      "10kg Set",
-      "20kg Set"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.187Z",
+    "updatedAt": "2026-09-24T03:48:12.264Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8091a",
+    "_id": "6ab49d7c8cba44f947c58bb5",
     "title": "Yoga Mat Non-Slip 6mm",
     "description": "Thick 6mm TPE eco-friendly yoga mat with alignment lines, carry strap, and superior grip.",
     "mainImg": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 999,
     "discount": 30,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.264Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8091b",
+    "_id": "6ab49d7c8cba44f947c58bb6",
     "title": "Carbon Fibre Badminton Racket",
     "description": "Professional-grade carbon fibre frame with isometric head and extra-stiff shaft for powerful smashes.",
     "mainImg": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "G4",
+      "G5"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 2999,
     "discount": 18,
-    "sizes": [
-      "G4",
-      "G5"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.265Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8091c",
+    "_id": "6ab49d7c8cba44f947c58bb7",
     "title": "Football Training Cones 20-Pack",
     "description": "Fluorescent disc cones for agility drills, speed training, and field marking. Stackable storage.",
     "mainImg": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 499,
     "discount": 15,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.265Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8091d",
+    "_id": "6ab49d7c8cba44f947c58bb8",
     "title": "Swimming Goggles Pro UV",
     "description": "Anti-fog UV-protected silicone swimming goggles with wide panoramic lens and adjustable nose bridge.",
     "mainImg": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=600&q=80",
+    "carousel": [],
+    "sizes": [],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 799,
     "discount": 20,
-    "sizes": []
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.266Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8091e",
+    "_id": "6ab49d7c8cba44f947c58bb9",
     "title": "Running Shoes Boost Pro",
     "description": "Energy-return boost midsole, Primeknit upper, and Continental rubber outsole for optimal grip.",
     "mainImg": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80",
-    "category": "Sports-Equipment",
-    "gender": "Unisex",
-    "price": 8999,
-    "discount": 25,
+    "carousel": [],
     "sizes": [
       "6",
       "7",
@@ -1151,72 +1693,111 @@ export const fallbackProducts = [
       "9",
       "10",
       "11"
-    ]
+    ],
+    "category": "Sports-Equipment",
+    "gender": "Unisex",
+    "price": 8999,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.266Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa8091f",
+    "_id": "6ab49d7c8cba44f947c58bba",
     "title": "Carbon Fiber Tennis Racket",
     "description": "Ultra-lightweight tennis racket engineered for maximum power, control, and precision on every shot.",
     "mainImg": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Grip 2",
+      "Grip 3"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 8999,
     "discount": 15,
-    "sizes": [
-      "Grip 2",
-      "Grip 3"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.267Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80920",
+    "_id": "6ab49d7c8cba44f947c58bbb",
     "title": "Professional Basketball Size 7",
     "description": "Composite leather indoor/outdoor basketball with deep channels and moisture-absorbing soft feel for grip.",
     "mainImg": "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Size 7"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 1999,
     "discount": 20,
-    "sizes": [
-      "Size 7"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.268Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80921",
+    "_id": "6ab49d7c8cba44f947c58bbc",
     "title": "Adjustable Heavy Grip Hand Strengthener",
     "description": "Ergonomic hand gripper with 10–60kg adjustable resistance and built-in mechanical counter for grip strength.",
     "mainImg": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "One Size"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 399,
     "discount": 30,
-    "sizes": [
-      "One Size"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.269Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80922",
+    "_id": "6ab49d7c8cba44f947c58bbd",
     "title": "Speed Agility Jump Rope with Bearings",
     "description": "Tangle-free steel wire jump rope with ball bearings and aluminum anti-slip handles for crossfit and speed cardio.",
     "mainImg": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "Adjustable"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 699,
     "discount": 25,
-    "sizes": [
-      "Adjustable"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.270Z"
   },
   {
-    "_id": "6ab3de396e3c10005fa80923",
+    "_id": "6ab49d7c8cba44f947c58bbe",
     "title": "Hydration Sports Water Bottle 1L",
     "description": "BPA-free leak-proof motivational water bottle with time markings, silicone straw, and fast-flow spout.",
     "mainImg": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
+    "carousel": [],
+    "sizes": [
+      "1L"
+    ],
     "category": "Sports-Equipment",
     "gender": "Unisex",
     "price": 599,
     "discount": 15,
-    "sizes": [
-      "1L"
-    ]
+    "rating": 4.7,
+    "reviewCount": 3,
+    "__v": 0,
+    "createdAt": "2026-09-24T03:48:12.188Z",
+    "updatedAt": "2026-09-24T03:48:12.271Z"
   }
 ];

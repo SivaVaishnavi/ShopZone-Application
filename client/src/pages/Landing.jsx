@@ -37,22 +37,18 @@ const Landing = () => {
   const [banner, setBanner] = useState(fallbackAdminSettings?.banner || '');
 
   useEffect(() => {
-    if (import.meta.env.PROD && !import.meta.env.VITE_API_URL) {
-      setBanner(fallbackAdminSettings?.banner || '');
-    } else {
-      api
-        .get('/admin/settings')
-        .then((res) => {
-          if (res.data && res.data.banner) {
-            setBanner(res.data.banner);
-          } else {
-            setBanner(fallbackAdminSettings?.banner || '');
-          }
-        })
-        .catch(() => {
+    api
+      .get('/admin/settings')
+      .then((res) => {
+        if (res.data && res.data.banner) {
+          setBanner(res.data.banner);
+        } else {
           setBanner(fallbackAdminSettings?.banner || '');
-        });
-    }
+        }
+      })
+      .catch(() => {
+        setBanner(fallbackAdminSettings?.banner || '');
+      });
   }, []);
 
   return (

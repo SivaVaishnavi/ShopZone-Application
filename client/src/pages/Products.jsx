@@ -56,20 +56,16 @@ const Products = () => {
       try {
         setLoading(true);
         let dataset = [];
-        if (import.meta.env.PROD && !import.meta.env.VITE_API_URL) {
+        try {
+          const params = {};
+          if (category) params.category = category;
+          if (gender) params.gender = gender;
+          if (search) params.search = search;
+          if (sort !== 'popular') params.sort = sort;
+          const { data } = await api.get('/products', { params });
+          dataset = Array.isArray(data) && data.length > 0 ? data : fallbackProducts;
+        } catch {
           dataset = fallbackProducts;
-        } else {
-          try {
-            const params = {};
-            if (category) params.category = category;
-            if (gender) params.gender = gender;
-            if (search) params.search = search;
-            if (sort !== 'popular') params.sort = sort;
-            const { data } = await api.get('/products', { params });
-            dataset = Array.isArray(data) && data.length > 0 ? data : fallbackProducts;
-          } catch {
-            dataset = fallbackProducts;
-          }
         }
 
         // Strip any products that have no image before showing them
